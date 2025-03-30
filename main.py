@@ -22,7 +22,7 @@ TERABOX_API = "https://teraboxdown.rishuapi.workers.dev/?url="  # TeraBox API UR
 
 # Force Join Channels
 FORCE_JOIN_CHANNELS = ["@Rishu_mood", "@Rishucoder", "@RishuTutorial"]
-FORCE_JOIN_BOT_TOKEN = "your_force_join_bot_token"  # Token for Force Join Bot
+FORCE_JOIN_BOT_TOKEN = "7112325134:AAGW8Pv09ZTp-jGRYf6UkF2_p1zKOMJrak4"  # Token for Force Join Bot
 
 # MongoDB Setup
 client = MongoClient(MONGO_URI)
