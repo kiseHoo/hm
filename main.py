@@ -211,7 +211,7 @@ async def fetch_file_details(client, message):
     )
 
 # Handle Download Button Click
-@bot.on_callback_query(filters.regex("^download\|"))
+@bot.on_callback_query(filters.regex("^download\\|"))
 async def handle_download(client, query):
     data = query.data.split("|")
     file_link = data[1]
