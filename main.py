@@ -16,7 +16,7 @@ BOT_TOKEN = "6956731651:AAE5v1XP5JcIQtsmjHiyemREawe1DQmgDpE"  # Your Telegram Bo
 OWNER_ID = 5738579437  # Your Telegram ID
 MONGO_URI = "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"  # Your MongoDB URL
 FLASK_PORT = 5000  # Change if needed
-DUMP_CHANNEL = -1001234567890  # Dump channel ID
+DUMP_CHANNEL = -1002565616015  # Dump channel ID
 
 TERABOX_API = "https://teraboxdown.rishuapi.workers.dev/?url="  # TeraBox API URL
 
