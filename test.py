@@ -1,14 +1,27 @@
-import asyncio 
-import os 
-import time 
-import requests 
+import asyncio
+import os
+import time
+import requests
 import logging
-from flask import Flask, request from pymongo import MongoClient from apscheduler.schedulers.background import BackgroundScheduler from pyrogram import Client, filters from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton from tqdm 
-import tqdm
+from flask import Flask, request
+from pymongo import MongoClient
+from apscheduler.schedulers.background import BackgroundScheduler
+from pyrogram import Client, filters
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from tqdm import tqdm
 
 #Configurations
 
-API_ID = 14050586 API_HASH = "42a60d9c657b106370c79bb0a8ac560c" BOT_TOKEN = "YOUR_BOT_TOKEN" OWNER_ID = 5738579437 MONGO_URI = "YOUR_MONGO_URI" FLASK_PORT = 5000 DUMP_CHANNEL = -1002565616015 TERABOX_API = "https://teraboxdown.rishuapi.workers.dev/?url=" FORCE_JOIN_CHANNELS = ["@Rishu_mood", "@Rishucoder", "@RishuTutorial"] FORCE_JOIN_BOT_TOKEN = "YOUR_FORCE_JOIN_BOT_TOKEN"
+API_ID = 14050586 
+API_HASH = "42a60d9c657b106370c79bb0a8ac560c" 
+BOT_TOKEN = "YOUR_BOT_TOKEN" 
+OWNER_ID = 5738579437
+MONGO_URI = "YOUR_MONGO_URI" 
+FLASK_PORT = 5000
+DUMP_CHANNEL = -1002565616015 
+TERABOX_API = "https://teraboxdown.rishuapi.workers.dev/?url=" 
+FORCE_JOIN_CHANNELS = ["@Rishu_mood", "@Rishucoder", "@RishuTutorial"] 
+FORCE_JOIN_BOT_TOKEN = "YOUR_FORCE_JOIN_BOT_TOKEN"
 
 #MongoDB Setup
 
