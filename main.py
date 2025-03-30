@@ -1,3 +1,4 @@
+import asyncio
 import os
 import time
 import requests
@@ -283,9 +284,12 @@ async def broadcast(client, message):
 @app.route("/", methods=["POST"])
 def webhook():
     update = request.get_json()
+    if not update:
+        return "Invalid Data", 400  # Bad Request
+    
     bot.process_update(update)
     return "OK", 200
-
+    
 if __name__ == "__main__":
     bot.start()
-    app.run(host="0.0.0.0", port=FLASK_PORT)
+    app.run(host="0.0.0.0", port=FLASK_PORT, threaded=True)
