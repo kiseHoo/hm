@@ -12,7 +12,7 @@ from tqdm import tqdm
 # Configurations
 API_ID = 14050586  # Your Telegram API ID
 API_HASH = "42a60d9c657b106370c79bb0a8ac560c"  # Your Telegram API Hash
-BOT_TOKEN = "your_bot_token"  # Your Telegram Bot Token
+BOT_TOKEN = "6956731651:AAE5v1XP5JcIQtsmjHiyemREawe1DQmgDpE"  # Your Telegram Bot Token
 OWNER_ID = 5738579437  # Your Telegram ID
 MONGO_URI = "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"  # Your MongoDB URL
 FLASK_PORT = 5000  # Change if needed
