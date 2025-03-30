@@ -21,7 +21,7 @@ DUMP_CHANNEL = -1002565616015  # Dump channel ID
 TERABOX_API = "https://teraboxdown.rishuapi.workers.dev/?url="  # TeraBox API URL
 
 # Force Join Channels
-FORCE_JOIN_CHANNELS = ["@Channel1", "@Channel2", "@Channel3"]
+FORCE_JOIN_CHANNELS = ["@Rishu_mood", "@Channel2", "@Channel3"]
 FORCE_JOIN_BOT_TOKEN = "your_force_join_bot_token"  # Token for Force Join Bot
 
 # MongoDB Setup
